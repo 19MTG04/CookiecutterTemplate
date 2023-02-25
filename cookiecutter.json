@@ -1,0 +1,8 @@
+{
+    "project_name": "My New Project",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+    "author": "David Zanger",
+    "author_email": "david.zanger@dlr.de",
+    "git_username":"zang_da"
+}
